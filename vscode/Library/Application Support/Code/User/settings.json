@@ -1,0 +1,11 @@
+{
+    "editor.minimap.enabled": false,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "go.useLanguageServer": true,
+    "window.zoomLevel": -0.4
+}
