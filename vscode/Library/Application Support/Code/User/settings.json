@@ -7,5 +7,5 @@
         }
     ],
     "go.useLanguageServer": true,
-    "window.zoomLevel": -0.4
+    "window.zoomLevel": -1
 }
