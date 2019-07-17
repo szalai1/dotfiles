@@ -5,3 +5,7 @@
 # Please adapt and uncomment the following lines:
 name = szalai1
 email = szalaipeti.vagyok@gmail.com 
+
+
+[url "ssh://git@github.com/"]
+insteadOf = https://github.com/
