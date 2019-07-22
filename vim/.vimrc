@@ -186,3 +186,8 @@ augroup END
 imap jj <Esc>
 set bg=dark
 set expandtab ts=4 sw=4 ai
+
+
+
+filetype indent plugin on
+autocmd Filetype gitcommit setlocal spell tw=72 colorcolumn=72
