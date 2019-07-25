@@ -7,4 +7,12 @@ plugins=(
     osx
 )
 
-alias kc="kubectl"
+if [ -f "$HOME/.workrc" ]; then
+    source "$HOME/.workrc"
+fi
+
+
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/peterszalai/.sdkman"
+[[ -s "/Users/peterszalai/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/peterszalai/.sdkman/bin/sdkman-init.sh"
