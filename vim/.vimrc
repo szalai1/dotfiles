@@ -15,6 +15,7 @@ Plug 'SirVer/ultisnips'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
+Plug '/usr/local/opt/fzf'
 call plug#end()
 
 """"""""""""""""""""""
