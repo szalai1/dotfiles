@@ -191,3 +191,4 @@ set expandtab ts=4 sw=4 ai
 
 filetype indent plugin on
 autocmd Filetype gitcommit setlocal spell tw=72 colorcolumn=72
+let g:vim_markdown_folding_disabled = 1
