@@ -7,5 +7,7 @@
         }
     ],
     "go.useLanguageServer": true,
-    "window.zoomLevel": 0
+    "window.zoomLevel": 0,
+    "editor.renderWhitespace": "all",
+    "workbench.colorTheme": "Visual Studio Dark"
 }
