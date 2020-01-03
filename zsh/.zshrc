@@ -12,7 +12,7 @@ if [ -f "$HOME/.workrc" ]; then
     source "$HOME/.workrc"
 fi
 
-
+export PATH=$PATH:$HOME/.bin
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/Users/peterszalai/.sdkman"
