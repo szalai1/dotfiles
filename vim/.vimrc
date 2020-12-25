@@ -11,7 +11,6 @@ call plug#begin()
 Plug 'fatih/vim-go'
 Plug 'fatih/molokai'
 Plug 'AndrewRadev/splitjoin.vim'
-Plug 'SirVer/ultisnips'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
