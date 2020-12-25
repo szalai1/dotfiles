@@ -10,5 +10,6 @@
     "window.zoomLevel": 0,
     "liveshare.presence": true,
     "terminal.integrated.shell.osx": "/bin/zsh",
-    "explorer.confirmDelete": false
+    "explorer.confirmDelete": false,
+    "editor.renderWhitespace": "all"
 }
