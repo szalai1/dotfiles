@@ -16,5 +16,10 @@
     "notebook.cellToolbarLocation": {
         "default": "right",
         "jupyter-notebook": "left"
-    }
+    },
+    "window.zoomLevel": 0,
+    "liveshare.presence": true,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "explorer.confirmDelete": false,
+    "editor.renderWhitespace": "all"
 }
