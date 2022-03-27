@@ -16,10 +16,10 @@
         "default": "right",
         "jupyter-notebook": "left"
     },
-    "window.zoomLevel": 1,
     "liveshare.presence": true,
     "terminal.integrated.shell.osx": "/bin/zsh",
     "explorer.confirmDelete": false,
     "editor.renderWhitespace": "all",
-    "workbench.iconTheme": "material-icon-theme"
+    "workbench.iconTheme": "material-icon-theme",
+    "python.analysis.typeCheckingMode": "basic"
 }

@@ -22,3 +22,8 @@ export PATH=$PATH:$HOME/.bin
 export PATH=$PATH:$HOME/Downloads/flutter/bin
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 eval "$(pyenv init -)"
+export KYBER_CONFIG_PATH=~/.kyber-config.json
+
+# Created by `pipx` on 2022-02-22 11:55:17
+export PATH="$PATH:/Users/peterszalai/.local/bin"
+alias aws-login="aws-google-auth -I C03163stn -S 533705401937 -R eu-west-1 -d 28800 --resolve-aliases --username peter.szalai@askattest.com --profile sso --ask-role"; export AWS_PROFILE=sso
