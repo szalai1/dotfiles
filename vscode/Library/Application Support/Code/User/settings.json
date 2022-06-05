@@ -22,6 +22,6 @@
     "editor.renderWhitespace": "all",
     "workbench.iconTheme": "material-icon-theme",
     "python.analysis.typeCheckingMode": "basic",
-    "workbench.colorTheme": "Abyss",
+    "workbench.colorTheme": "Default Dark+",
     "calva.paredit.defaultKeyMap": "strict"
 }
