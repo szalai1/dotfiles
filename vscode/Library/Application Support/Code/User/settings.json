@@ -23,5 +23,8 @@
     "workbench.iconTheme": "material-icon-theme",
     "python.analysis.typeCheckingMode": "basic",
     "workbench.colorTheme": "Default Dark+",
-    "calva.paredit.defaultKeyMap": "strict"
+    "calva.paredit.defaultKeyMap": "strict",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "400" 
 }

@@ -5,7 +5,7 @@ source $ZSH/oh-my-zsh.sh
 plugins=(
     git
     kubectl
-    osx
+    macos
 )
 
 if [ -f "$HOME/.workrc" ]; then
