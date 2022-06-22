@@ -13,7 +13,7 @@ if [ -f "$HOME/.workrc" ]; then
 fi
 
 export PATH=$PATH:$HOME/.bin
-export PATH=$PATH:$HOME/.bin
+export PATH=$PATH:$HOME/.bin/flutter/bin
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
