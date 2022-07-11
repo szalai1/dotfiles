@@ -5,3 +5,4 @@ for app in git macos tmux vim vscode zsh; do
     stow $app
 done
 
+vim +'PlugInstall --sync' +qa
