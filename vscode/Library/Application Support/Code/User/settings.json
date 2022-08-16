@@ -1,4 +1,5 @@
 {
+    "editor.experimental.stickyScroll.enabled": true,
     "editor.minimap.enabled": false,
     "vim.insertModeKeyBindings": [
         {
@@ -31,7 +32,8 @@
         "*": true,
         "yaml": false,
         "plaintext": true,
-        "markdown": false
+        "markdown": false,
+        "clojure": false
     },
     "editor.inlineSuggest.enabled": true
 }

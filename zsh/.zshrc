@@ -16,5 +16,10 @@ export PATH=$PATH:$HOME/.bin
 export PATH=$PATH:$HOME/.bin/flutter/bin
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
 eval "$(direnv hook zsh)"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
