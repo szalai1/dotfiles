@@ -1,5 +1,4 @@
 {
-    "editor.experimental.stickyScroll.enabled": true,
     "editor.minimap.enabled": false,
     "vim.insertModeKeyBindings": [
         {
@@ -37,5 +36,7 @@
     },
     "editor.inlineSuggest.enabled": true,
     "redhat.telemetry.enabled": true,
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
+    "editor.stickyScroll.enabled": true,
+    "terminal.integrated.enableMultiLinePasteWarning": false
 }

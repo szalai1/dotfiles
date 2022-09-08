@@ -1,12 +1,13 @@
-ZSH_THEME="robbyrussell"
-export ZSH=$HOME/.oh-my-zsh
-source $ZSH/oh-my-zsh.sh
 
 plugins=(
     git
     kubectl
     macos
 )
+
+ZSH_THEME="robbyrussell"
+export ZSH=$HOME/.oh-my-zsh
+source $ZSH/oh-my-zsh.sh
 
 if [ -f "$HOME/.workrc" ]; then
     source "$HOME/.workrc"
@@ -19,7 +20,7 @@ export PATH=$PATH:$HOME/.bin/flutter/bin
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 eval "$(direnv hook zsh)"
-
+source <(kubectl completion zsh)
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/szalai1/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/szalai1/Downloads/google-cloud-sdk/path.zsh.inc'; fi
