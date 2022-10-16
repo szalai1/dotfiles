@@ -12,7 +12,9 @@ source $ZSH/oh-my-zsh.sh
 if [ -f "$HOME/.workrc" ]; then
     source "$HOME/.workrc"
 fi
-
+alias tf="terraform"
+export USE_GKE_GCLOUD_AUTH_PLUGIN=False
+export USE_GKE_GCLOUD_AUTH_PLUGIN=True
 export PATH=$PATH:$HOME/.bin
 export PATH=$PATH:$HOME/.bin/flutter/bin
 
