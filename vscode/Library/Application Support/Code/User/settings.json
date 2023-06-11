@@ -22,21 +22,32 @@
     "editor.renderWhitespace": "all",
     "workbench.iconTheme": "material-icon-theme",
     "python.analysis.typeCheckingMode": "basic",
-    "workbench.colorTheme": "Default Dark+",
     "calva.paredit.defaultKeyMap": "original",
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "editor.fontWeight": "400",
     "github.copilot.enable": {
         "*": true,
-        "yaml": false,
         "plaintext": true,
-        "markdown": false,
-        "clojure": false
+        "markdown": true,
+        "scminput": false,
+        "yaml": true,
+        "clojure": true
     },
     "editor.inlineSuggest.enabled": true,
     "redhat.telemetry.enabled": true,
     "workbench.startupEditor": "none",
     "editor.stickyScroll.enabled": true,
-    "terminal.integrated.enableMultiLinePasteWarning": false
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "jupyter.notebookFileRoot": "/Users/szalaipeter/workspace/mwaa/plugin",
+    "security.workspace.trust.untrustedFiles": "open",
+    "[sql]": {
+        "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+    },
+    "notebook.output.textLineLimit": 100,
+    "cody.serverEndpoint": "https://sourcegraph.com",
+    "workbench.colorTheme": "Sourcegraph Dark"
 }

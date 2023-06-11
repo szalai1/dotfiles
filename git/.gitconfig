@@ -7,11 +7,25 @@ name = szalai1
 email = szalaipeti.vagyok@gmail.com 
 
 
-[url "ssh://git@github.com/"]
-insteadOf = https://github.com/
+#[url "ssh://git@github.com/"]
+#insteadOf = https://github.com/
 
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+
+
+
+[user]
+  signingkey = ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDHkvXjIeig3f3CoZMetcVndNZkcjRrYeAFw8ir0FKe8qKpcJ+ZpShToeHOBFHyn6bACZkyBENCV2lnWz0IRhqS+RR9GSm2zHYQBdfQUVQigZtXPXaKB908rPhMGWrO3lPCh72VY92F8PcsxO6UzleAbPqv4lUARRShOGynKWkd9OCaY7J7BD142naI4sGf6JPPrHuM3zZfOknzN/4zxWDQKyovc9snxJVmBXYQVR9AowsUNH/ssQqDrFzU7OixQRKMgy38H/nr8Hhs0pclhQSF5UahPLHeheiXiIGI4moZyqSUTpQeQyZ/NO6yq7jIVzHSQn4hkUmgN/7knj0FQq+L
+
+[gpg]
+  format = ssh
+
+[gpg "ssh"]
+  program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
+
+[commit]
+  gpgsign = true

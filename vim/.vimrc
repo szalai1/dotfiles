@@ -14,6 +14,7 @@ Plug 'AndrewRadev/splitjoin.vim'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
+Plug 'tpope/vim-surround'
 Plug '/usr/local/opt/fzf'
 call plug#end()
 
