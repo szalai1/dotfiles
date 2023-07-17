@@ -7,8 +7,8 @@ name = szalai1
 email = szalaipeti.vagyok@gmail.com 
 
 
-#[url "ssh://git@github.com/"]
-#insteadOf = https://github.com/
+[url "ssh://git@github.com/"]
+insteadOf = https://github.com/
 
 [filter "lfs"]
 	clean = git-lfs clean -- %f

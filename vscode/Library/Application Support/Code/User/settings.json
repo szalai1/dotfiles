@@ -49,5 +49,6 @@
     },
     "notebook.output.textLineLimit": 100,
     "cody.serverEndpoint": "https://sourcegraph.com",
-    "workbench.colorTheme": "Sourcegraph Dark"
+    "workbench.colorTheme": "Default Light+",
+    "python.analysis.extraPaths": []
 }
