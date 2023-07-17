@@ -13,7 +13,7 @@ if [ -f "$HOME/.workrc" ]; then
     source "$HOME/.workrc"
 fi
 alias tf="terraform"
-alias gfc="git commit -am \'...\' && gp" # git fucking commit
+alias gfc="git commit -am \'...\' && git push" # git fucking commit
 export USE_GKE_GCLOUD_AUTH_PLUGIN=False
 export USE_GKE_GCLOUD_AUTH_PLUGIN=True
 export PATH=$PATH:$HOME/.bin
