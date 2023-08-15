@@ -13,12 +13,11 @@ if [ -f "$HOME/.workrc" ]; then
     source "$HOME/.workrc"
 fi
 alias tf="terraform"
-alias gfc="git commit -am \'...\' && git push" # git fucking commit
+alias gfc="git commit -am \'Automatic commit\' && git push" # git fucking commit
 export USE_GKE_GCLOUD_AUTH_PLUGIN=False
 export USE_GKE_GCLOUD_AUTH_PLUGIN=True
 export PATH=$PATH:$HOME/.bin
 export PATH=$PATH:$HOME/.bin/flutter/bin
-
 [ -f ~/.workrc ] && source ~/.workrc
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 eval "$(pyenv init -)"

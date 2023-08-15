@@ -49,6 +49,11 @@
     },
     "notebook.output.textLineLimit": 100,
     "cody.serverEndpoint": "https://sourcegraph.com",
-    "workbench.colorTheme": "Default Light+",
-    "python.analysis.extraPaths": []
+    "workbench.colorTheme": "Default Dark+",
+    "python.analysis.extraPaths": [],
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "git.openRepositoryInParentFolders": "never",
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar"
+    }
 }
