@@ -55,5 +55,6 @@
     "git.openRepositoryInParentFolders": "never",
     "[vue]": {
         "editor.defaultFormatter": "Vue.volar"
-    }
+    },
+    "breadcrumbs.enabled": false
 }

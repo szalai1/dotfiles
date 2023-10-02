@@ -13,7 +13,7 @@ if [ -f "$HOME/.workrc" ]; then
     source "$HOME/.workrc"
 fi
 alias tf="terraform"
-alias gfc="git commit -am \'Automatic commit\' && git push" # git fucking commit
+alias gfc="git commit -am 'Automatic commit' && git push" # git fucking commit
 export USE_GKE_GCLOUD_AUTH_PLUGIN=False
 export USE_GKE_GCLOUD_AUTH_PLUGIN=True
 export PATH=$PATH:$HOME/.bin
@@ -31,6 +31,8 @@ if [ -f '/Users/szalai1/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Use
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/szalai1/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/szalai1/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+eval "$(direnv hook zsh)"
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
