@@ -14,6 +14,8 @@ if [ -f "$HOME/.workrc" ]; then
 fi
 alias tf="terraform"
 alias gfc="git commit -am 'Automatic commit' && git push" # git fucking commit
+alias da="direnv allow"
+alias c="code ."
 export USE_GKE_GCLOUD_AUTH_PLUGIN=False
 export USE_GKE_GCLOUD_AUTH_PLUGIN=True
 export PATH=$PATH:$HOME/.bin

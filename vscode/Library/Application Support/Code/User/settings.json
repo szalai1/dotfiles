@@ -49,12 +49,24 @@
     },
     "notebook.output.textLineLimit": 100,
     "cody.serverEndpoint": "https://sourcegraph.com",
-    "workbench.colorTheme": "Default Dark+",
+    "workbench.colorTheme": "Night Owl Theme",
     "python.analysis.extraPaths": [],
     "editor.unicodeHighlight.ambiguousCharacters": false,
     "git.openRepositoryInParentFolders": "never",
     "[vue]": {
         "editor.defaultFormatter": "Vue.volar"
     },
-    "breadcrumbs.enabled": false
+    "breadcrumbs.enabled": false,
+    "editor.accessibilitySupport": "off",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "go.testEnvFile": ".env",
+    "github.copilot.editor.enableAutoCompletions": true,
+    "workbench.sideBar.location": "right",
+    "go.toolsManagement.autoUpdate": true,
+    "rapidapi.terminalLink.enabled": false,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }

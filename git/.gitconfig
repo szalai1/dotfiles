@@ -29,3 +29,5 @@ insteadOf = https://github.com/
 
 [commit]
   gpgsign = true
+[status]
+	showUntrackedFiles = no
