@@ -56,7 +56,6 @@
     "[vue]": {
         "editor.defaultFormatter": "Vue.volar"
     },
-    "breadcrumbs.enabled": false,
     "editor.accessibilitySupport": "off",
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
