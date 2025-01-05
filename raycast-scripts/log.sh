@@ -6,7 +6,7 @@
 # @raycast.mode silent
 
 # Optional parameters:
-# @raycast.icon 🤖
+# @raycast.icon 🪵 
 # @raycast.argument1 { "type": "text", "placeholder": "* " }
 
 # Documentation:
@@ -16,4 +16,4 @@
 
 d=`date +"%Y-%m-%d"` 
 t=`date +"%H:%M"`
-echo "- [[$d]] $t $1 \n" >>  ~/SynologyDrive/pages/RayCastLog.md
+echo "- [[$d]] $t $1 " >>  ~/SynologyDrive/pages/RayCastLog.md
