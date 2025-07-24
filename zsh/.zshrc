@@ -16,7 +16,7 @@ alias tf="terraform"
 alias gfc="git commit -am 'Automatic commit' && git push" # git fucking commit
 alias da="direnv allow"
 alias c="code ."
-
+source <(fzf --zsh)
 # bash history settings
 HISTSIZE=10000000
 SAVEHIST=10000000
